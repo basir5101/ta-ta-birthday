@@ -28,4 +28,9 @@ function setTime(){
     else{
         document.getElementById('time').innerHTML = hours + ' : ' + minutes + ' : ' + second + ' am';
     }
+    var music = new Audio();
+    music.src = "sound/beep-07.mp3";
+    music.play();
 }
+
+
