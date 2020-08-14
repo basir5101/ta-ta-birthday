@@ -48,7 +48,7 @@ function setTime(){
 
     var music = new Audio();
     music.src = "sound/beep-07.mp3";
-   // music.play();
+    music.play();
 }
 
 
